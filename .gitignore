@@ -1,28 +1,77 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+#include<iostream>
 
-# Precompiled Headers
-*.gch
-*.pch
+using namespace std;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
 
-# Fortran module files
-*.mod
+int main()
+{
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+	float a, b, c, d, e, f, g, h, i;
 
-# Executables
-*.exe
-*.out
-*.app
+	cout << "Hi this is Ak's Module grade calculator Welcome \n" ;
+	cout << "Enter your MCQ Test 1 grade" << endl;
+	cin >> a;
+	cout << "Enter your MCQ Test 2 grade" << endl;
+	cin >> b;
+	cout << "Enter your MCQ Test 3 grade" << endl;
+	cin >> c;
+	cout << "Enter your Viva 1 grade" << endl;
+	cin >> d;
+	cout << "Enter your Viva 2 grade" << endl;
+	cin >> e;
+	cout << "Enter your Viva 3 grade" << endl;
+	cin >> f;
+	cout << "Enter your exam result" << endl;
+	cin >> i;
+
+
+	float ans1, ans2, ans3, ans4, ans5, ans6,ans7;
+
+	float er;
+	er = 100;
+
+	ans1 = a / 100;
+	ans2 = b / 100;
+	ans3 = c / 100;
+	ans4 = d / 100;
+	ans5 = e / 100;
+	ans6 = f / 100;
+	ans7 = i / 100;
+
+
+
+	float a1, a2, a3, a4, a5, a6, a7, a8;
+
+	a1 = ans1 * 5;
+	a2 = ans2 * 10;
+	a3 = ans3 * 10;
+	a4 = ans4 * 5;
+	a5 = ans5 * 10;
+	a6 = ans6 * 10;
+	a7 = ans7 * 50;
+
+
+	float b1,b2;
+	b1 = a1 + a2 + a3 + a4 + a5 + a6 + a7;
+	
+
+
+
+	
+
+
+	cout << "Your Final Grade is: " << endl<< b1<< "%"<< endl;
+
+
+
+
+
+
+	cin.get();
+	system("PAUSE");
+
+
+
+
+
+}
